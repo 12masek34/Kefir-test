@@ -23,7 +23,7 @@
 
 python3 -m venv venv              создаем виртуальное окружение.
 
-source venv/bin/activate          активация веруального окружения.
+source venv/bin/activate          активация виртуального окружения.
 
 pip install -r requirements.txt   устанавливаем зависимости.
 
@@ -45,7 +45,7 @@ python manage.py runserver
 
 ______________________________________________________________________________________________________________________
 
-routes:
+       ROUTES:
 
 http://localhost:8000/login/                Аутентификация в сервисе.
 
