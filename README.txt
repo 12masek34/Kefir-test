@@ -25,8 +25,6 @@ source venv/bin/activate          активация веруального ок
 
 pip install -r requirements.txt   устанавливаем зависимости.
 
-python manage.py makemigrations   создаем миграции.
-
 python manage.py migrate          применяем миграции.
 
 python manage.py createsuperuser  создаем суперпользоватея  (у него  admin = True)
